@@ -2383,6 +2383,9 @@ footer {
   }
 }
 @media screen and (max-width: 991.5px) {
+  .inspiration hr {
+    margin: 60px auto;
+  }
   .regist__list {
     font-size: 28px;
   }
@@ -3127,8 +3130,18 @@ footer {
   .promo__titles .title2 {
     font-size: 22px !important;
   }
+  .teacher__image {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 575.5px) {
+  .invitation__info-row {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .inspiration hr {
+    margin: 30px auto;
+  }
   .regist__list {
     font-size: 22px;
   }
@@ -3395,6 +3408,14 @@ footer {
   }
 }
 @media screen and (max-width: 505px) {
+  .price {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .about-teacher {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .regist__list {
     font-size: 20px;
   }
@@ -3492,8 +3513,8 @@ footer {
     font-size: 24px !important;
   }
   .teacher {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
   }
   .teacher__add li:before {
     transform: scale(1);
@@ -3517,7 +3538,10 @@ footer {
   .info-row__title h1 {
     font-size: 32px;
   }
-
+  .inspiration {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .inspiration .info-row__title h1 {
     color: #fff;
   }
@@ -3692,13 +3716,13 @@ footer {
     font-size: 17px;
   }
   .price-card__pack-list {
-    padding-left: 20px;
+    padding-left: 30px;
   }
   .promo__mobile-adapt {
     row-gap: 30px;
   }
   .mobile-adapt__date label {
-    max-width: 200px;
+    /* max-width: 200px; */
   }
   .promo__btn label {
     font-size: 17px;
